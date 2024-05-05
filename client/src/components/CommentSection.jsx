@@ -101,6 +101,7 @@ export default function CommentSection({ postId }) {
                      outline
                      gradientDuoTone={'greenToBlue'}
                      type='submit'
+                     disabled={comment.length < 2}
                   >
                      Submit
                   </Button>
