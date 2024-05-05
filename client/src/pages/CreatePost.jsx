@@ -53,7 +53,7 @@ export default function CreatePost() {
         } catch (error) {
             setImageUploadError('Image upload failed');
             setImageUploadProgress(null);
-            console.log(error);
+            console.log(error.message);
         }
     }
 

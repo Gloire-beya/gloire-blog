@@ -74,7 +74,7 @@ export default function UpdatePost() {
         } catch (error) {
             setImageUploadError('Image upload failed');
             setImageUploadProgress(null);
-            console.log(error);
+            console.log(error.message);
         }
     };
     const handleSubmit = async (e) => {
